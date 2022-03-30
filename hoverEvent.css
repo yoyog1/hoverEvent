@@ -1,0 +1,74 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+* a:hover {
+  opacity: 0.3;
+}
+
+* li {
+  list-style: none;
+}
+
+/* // でコメントアウトするとコンパイル後cssに残らない */
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+}
+
+header .wrapper .container {
+  max-width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header .wrapper .container > .display img {
+  width: 100%;
+}
+
+header .wrapper .container > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+header .wrapper .container > ul li {
+  width: 20%;
+}
+
+header .wrapper .container > ul li img {
+  padding: 4px;
+  width: 100%;
+}
+/*# sourceMappingURL=hoverEvent.css.map */
